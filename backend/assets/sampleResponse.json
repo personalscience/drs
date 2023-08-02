@@ -1,0 +1,52 @@
+{"Summary": "The patient appears to be in good overall health with regular exercise and a healthy blood pressure. However, there are some concerning blood test results, including high levels of LDL cholesterol and total cholesterol:HDL ratio, as well as low ferritin levels. Further monitoring and lifestyle adjustments may be necessary to improve these health markers.",
+
+"Blood": "The patient's APOB:APOA1 ratio is 1.14, which is indicative of a higher risk for cardiovascular disease. Additionally, the high levels of LDL cholesterol and total cholesterol:HDL ratio suggest a need for dietary adjustments and potentially medication. Ferritin levels are very low, indicating a possible iron deficiency that should be addressed with supplements or dietary changes. However, all other blood test results appear to be within normal ranges.",
+
+"Genes": [{
+         "SNP": "rs4988235",
+         "Description": "Lactose Intolerance",
+         "URL":"https://www.23andme.com/topics/health-traits/lactose-intolerance/"
+      },
+      {
+         "SNP": "rs9939609",
+         "Description": "Obesity",
+         "URL":"https://www.23andme.com/topics/health-traits/obesity/"
+      },
+      {
+         "SNP": "rs1801133",
+         "Description": "MTHFR Gene Mutation",
+         "URL":"https://www.23andme.com/topics/health-predispositions/mthfr/"
+      }
+   ],
+
+"Diet": [{
+         "Category": "Fat",
+         "Percent": "25-30%",
+         "Reason": "Based on the patient's high LDL cholesterol levels, limiting saturated fat intake and increasing consumption of healthy fats like omega-3s can help improve cholesterol levels.",
+         "Foods": "Fatty fish like salmon, avocado, nuts, and seeds"
+      },
+      {
+         "Category": "Protein",
+         "Percent": "20%",
+         "Reason": "The patient is already getting regular exercise, so maintaining adequate protein intake is important for muscle recovery and maintenance.",
+         "Foods": "Lean meats, eggs, nuts, and beans"
+      },
+      {
+         "Category": "Carbohydrate",
+         "Percent": "50%",
+         "Reason": "A moderate intake of carbohydrates can provide sustained energy for the patient's daily runs, while still allowing for enough caloric restriction to support weight management.",
+         "Foods": "Whole grains, fruits, vegetables, and legumes"
+      },
+      {
+         "Category": "Fiber",
+         "Amount": "25g per day",
+         "Reason": "Increased fiber intake can help improve cholesterol levels and support healthy digestion.",
+         "Foods": "Whole grains, fruits, vegetables, and legumes"
+      },
+      {
+         "Category": "Sugar",
+         "Amount": "Limit added sugars to less than 10% of daily caloric intake",
+         "Reason": "Reducing added sugar intake can help improve overall health markers and support weight management.",
+         "Foods": "Natural sources of sweetness like fruit or small amounts of honey or maple syrup as needed"
+      }]
+}

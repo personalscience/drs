@@ -1,0 +1,67 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "python": "${workspaceFolder}/venv/bin/python",
+            "args": [
+                "backend.app:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "5005",
+                "--reload"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/backend",
+                "OBJC_DISABLE_INITIALIZE_FORK_SAFETY": "YES",
+                "DRR_DEMO_MODE": "true"
+            },
+        }
+        ,
+        {
+            "name": "Python: Flask",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "python": "${workspaceFolder}/venv/bin/python",
+            "env": {
+                "FLASK_APP": "${workspaceFolder}/backend/app.py",
+                "FLASK_ENV": "development",
+                "DEMO_MODE": "true",
+                "ASSET_PATH": "${workspaceFolder}/backend/assets/"
+            },
+            
+            "args": [
+                "run",
+                "--host=0.0.0.0",
+                "--port=5005"
+            ]
+        },
+        {
+            "name": "npm start",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": ["start"],
+            "cwd": "${workspaceFolder}/frontend/drr_frontend",
+            "restart": true,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "backend",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/backend/app.py"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch All",
+            "configurations": ["Python: FastAPI", "npm start"]
+        }
+    ]
+}
